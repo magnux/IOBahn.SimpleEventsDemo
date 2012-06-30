@@ -12,7 +12,11 @@ When the message is received the client will reply another message, that you can
 
 ## How to use it?
 
-Simply download it and import it in eclipse (you must have Android pluging installed and well configured).
+###The client
+Simply download the whole repo and import it in eclipse. You must have Android plugin installed and well configured.
+
+###The server
+Is the server.js file, simply run: node server.js. You must have node.js and socket.io in order to run it. 
 
 ##License
 (The MIT License)
