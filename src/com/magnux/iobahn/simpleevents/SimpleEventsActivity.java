@@ -43,9 +43,9 @@ import android.widget.Toast;
 public class SimpleEventsActivity extends Activity {
 
    @SuppressWarnings("unused")
-   private static final String TAG = "de.tavendo.autobahn.simplepubsub";
+   private static final String TAG = "com.magnux.iobahn.simpleevents";
 
-   private static final String PREFS_NAME = "AutobahnAndroidSimplePubSub";
+   private static final String PREFS_NAME = "IOBahnSimpleEvents";
 
    private SharedPreferences mSettings;
 
