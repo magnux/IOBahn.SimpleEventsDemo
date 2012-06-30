@@ -104,9 +104,9 @@ public class SimpleEventsActivity extends Activity {
       
       @Override
       public String toString() {
-         return "text: " + text +
+         return "\ntext: " + text +
                 "\ndate: " + date + 
-                "\nmillis: " + millis+"}";
+                "\nmillis: " + millis;
       }
    }
 
