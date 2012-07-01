@@ -7,7 +7,7 @@ Many thanks to the [Socket.IO](http://socket.io/) and [Autobahn](http://autobahn
 
 ## Overview
 
-This demo will connect to your Socket.IO demo server, which will send messages to your phone every 5000 millisecons (by default, configurable).
+This demo will connect to your Socket.IO demo server, which will send messages to your phone with the current time and some demo text.
 When the message is received the client will reply another message, that you can see in the server side.
 
 ## How to use it?
