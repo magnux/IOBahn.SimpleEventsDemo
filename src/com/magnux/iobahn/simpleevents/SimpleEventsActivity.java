@@ -132,8 +132,7 @@ public class SimpleEventsActivity extends Activity {
 
             mConnection.on("myevent", MyEvent.class, new SocketIO.EventHandler() {
 
-               @Override
-               public void onEvent(String name, Object event) {
+               public void onEvent(Object event) {
 
                   // when we get an event, we safely can cast to the type we specified previously
                   MyEvent evt = (MyEvent) event;

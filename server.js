@@ -8,9 +8,9 @@ io.sockets.on('connection', function (socket) {
       date: d.toUTCString(),
       millis: d.getUTCMilliseconds()
     });
-    setTimeout(reportDate,5000);
+    setTimeout(reportDate,100);
   }
-  setTimeout(reportDate,5000);
+  setTimeout(reportDate,100);
   socket.on('myclientevent', function (data) {
     console.log(data);
   });
